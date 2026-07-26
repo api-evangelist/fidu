@@ -1,8 +1,31 @@
 aid: fidu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fidu.png
 name: Fidu
-description: Fidu is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fidu is an operating system and financial-services platform for private K-12
+  schools across Spanish-speaking Latin America. Founded in 2022 and
+  headquartered in Buenos Aires, Argentina, Fidu digitizes the academic,
+  administrative, financial, and communication processes of educational
+  institutions in a single platform. School administrators send tuition
+  statements and pay slips to families, who then pay tuition directly through
+  the Fidu mobile app, and a "Parent Copilot" AI layer handles 24/7 automated
+  responses, content generation, and academic-data synchronization with school
+  information systems. Fidu raised a $5M seed round led by NFX and Lightspeed
+  Venture Partners and reports more than 1,000 institutions across 10 countries
+  and over 500,000 active users. Fidu does not currently publish a public
+  developer program, API reference, or OpenAPI definition; this profile captures
+  the company's real public web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/fidu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- EdTech
+- Fintech
+- Education
+- Payments
+- Schools
+- Latin America
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://fidu.la
+- type: Support
+  url: https://soporte.fidu.la/es/
+- type: HelpCenter
+  url: https://soporte.fidu.la/es/
+- type: Login
+  url: https://app.fidu.la/login
+- type: PrivacyPolicy
+  url: https://fidu.la/privacy-es.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
